@@ -16,7 +16,7 @@ def alarm_clock(alarm_time):
             mixer.music.load(music_file)
             mixer.music.play()
             while mixer.music.get_busy():
-                time.sleep(1)
+                pass
 
             alarm = False
     
